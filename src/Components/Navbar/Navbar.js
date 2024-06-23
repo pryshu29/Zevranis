@@ -2,7 +2,7 @@ import React, { useContext, useState, useRef } from 'react'
 import  './Navbar.css'
 import cart_icon from '../Assests/cart_icon.png';
 import {Link} from 'react-router-dom'
-import { ShopContext } from '../../Context/ShopContext'
+import { ShopContext } from '../../Context/ShopContext.js'
 
 
 const Navbar = () => {

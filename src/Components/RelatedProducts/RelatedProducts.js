@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import './RelatedProducts.css'
-import Item from '../Item/Item'
-import { ShopContext } from '../../Context/ShopContext'
+import Item from '../Item/Item.js'
+import { ShopContext } from '../../Context/ShopContext.js'
 
 const RelatedProducts = (props) => {
   const {category} = props;
