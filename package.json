@@ -8,6 +8,9 @@
     "start": "parcel index.html",
     "build": "parcel index.html"
   },
+  "@parcel/resolver-default": {
+    "packageExports": true
+  },
   "author": "Priyanxh",
   "license": "ISC",
   "dependencies": {
