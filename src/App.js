@@ -11,6 +11,11 @@ import Footer from './Components/Footer/Footer'
 import men_banner from './Components/Assests/banner_mens.png';
 import women_banner from './Components/Assests/banner_women.png';
 import kid_banner from './Components/Assests/banner_kids.png';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import ShopContextProvider from "../src/Context/ShopContext.js";
+const root = ReactDOM.createRoot(document.getElementById("root"));
+require('dotenv').config()
 
 function App(){
     return (
@@ -35,4 +40,10 @@ function App(){
     )
 }
 
-export default App ;
+
+
+root.render(
+  <ShopContextProvider>
+      <App/>
+  </ShopContextProvider>
+);
