@@ -1,1 +1,1 @@
-# For Server git repo link - https://github.com/priyanxhh29/Zevranis-server.git
+
